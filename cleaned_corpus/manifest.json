@@ -1,0 +1,113 @@
+{
+  "records": 410587,
+  "arrays": 20,
+  "excluded_name0_present": 0,
+  "endpoint_disagreements": 0,
+  "original_field_disagreements": 0,
+  "original_smiles_preserved": true,
+  "files": [
+    {
+      "file": "data/Acylation.csv",
+      "records": 114733,
+      "sha256": "775156724dd2beebff60a4276cd7212c17d0667e00614019d1888b7738a96a37"
+    },
+    {
+      "file": "data/Allylic-substitution.csv",
+      "records": 5774,
+      "sha256": "694dd7aa18891769362d98b21cbf0ee006b1029859ffa6eb17305bb88c811fa4"
+    },
+    {
+      "file": "data/Buchwald-Hartwig(CMC).csv",
+      "records": 17818,
+      "sha256": "8f13388da89cf94d3f0dda35ab456684b62d519c8ee14943e158c7a67fcaddc4"
+    },
+    {
+      "file": "data/Buchwald-Hartwig.csv",
+      "records": 53516,
+      "sha256": "328229b1fabb5e5a32b1832f781f977ab9080a486cc5d27b2af4b59327df3590"
+    },
+    {
+      "file": "data/C-O competitive reactions.csv",
+      "records": 10702,
+      "sha256": "daedd19dea0cdb0ab93b8f6e85a8b2b6c8122f45a175b512035a0f28b32fb32b"
+    },
+    {
+      "file": "data/Chan-Lam.csv",
+      "records": 14081,
+      "sha256": "f725b137851400bc8693267eabd724e99bb33e71e6d79866cbd773afce48c64e"
+    },
+    {
+      "file": "data/Esterification.csv",
+      "records": 6249,
+      "sha256": "5a5cf7595cb69ec5f8969fce4aaa019fcf7f360a233144f0cef46999b3ba46b8"
+    },
+    {
+      "file": "data/Finkelstein.csv",
+      "records": 3678,
+      "sha256": "0f7c6e3237e62b597e50ff48a64b43b230b79a25d3e458799b3979fbd839ef92"
+    },
+    {
+      "file": "data/Grignard.csv",
+      "records": 5793,
+      "sha256": "2b197d32310bb1293e48f84546e65d0f74aa570365d3f7b0a0f6e421ca4faa63"
+    },
+    {
+      "file": "data/Heck.csv",
+      "records": 29615,
+      "sha256": "4817734ddd01b6dcefe8de671d47f2fa72b93b4173d28a5f58adf175cdda1500"
+    },
+    {
+      "file": "data/Hiyama.csv",
+      "records": 12792,
+      "sha256": "1c47f4d13eff0b6cc14c0e241e3a8e2b7431694cdd989ce1231ce607284ee888"
+    },
+    {
+      "file": "data/Kumada.csv",
+      "records": 18155,
+      "sha256": "ed2346dac2d5235ad11700a6298c171e75198759bea60c39078787c4a81120e7"
+    },
+    {
+      "file": "data/Minisci.csv",
+      "records": 1152,
+      "sha256": "38697212fc58b15293037c24807b84ec92b20b3bb43700fc58828a800baa35e6"
+    },
+    {
+      "file": "data/Pd-carbonylation.csv",
+      "records": 3503,
+      "sha256": "d738657278d8b50ab42d9d88dff878a4167ba4716c1f0b7b6e5e7638856c8059"
+    },
+    {
+      "file": "data/Reductive-amination.csv",
+      "records": 8858,
+      "sha256": "747fdb665320c43a9a33133659c54e92c03aa1507cf103f594266d2d96c1c5a0"
+    },
+    {
+      "file": "data/SNAr.csv",
+      "records": 20601,
+      "sha256": "c1a63c41347b40f495dda46452ac0e5022cb71869ccd4e38722965e2a2295baa"
+    },
+    {
+      "file": "data/Sonogashira.csv",
+      "records": 14691,
+      "sha256": "6bda9466e40b2842f91632fca28463b7c731b580291eb8444c9f693260437ece"
+    },
+    {
+      "file": "data/Suzuki Bpin.csv",
+      "records": 6672,
+      "sha256": "466ea7583a51d9e0516ef537f459fcec70e182569f519198ce79f96050011640"
+    },
+    {
+      "file": "data/Suzuki.csv",
+      "records": 41240,
+      "sha256": "929a1e6064cee61d047ba6767048836e38b7050ed7966ad28684721f24193623"
+    },
+    {
+      "file": "data/Ullmann.csv",
+      "records": 20964,
+      "sha256": "a12093a3982a363bfc2fafaf48f0027bf40f5fba2aca42a52135336f87d4dad1"
+    }
+  ],
+  "yield_definition": "fraction; numerical raw yield, or zero for a blank with DESI call 0",
+  "raw_yield_definition": "unaltered yield field from the current source table",
+  "missing_endpoint_definition": "DESI-positive or unclassified blanks remain missing"
+}
