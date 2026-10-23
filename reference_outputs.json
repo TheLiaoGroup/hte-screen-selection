@@ -1,6 +1,8 @@
 {
   "scope": "numerical scientific outputs",
   "files": {
+    "counterexample_distribution/Figure_4c_array_distribution.csv": "deb8c058efd92224407e4fde7d4a05c198187342bc734ae4e32042951cecd346",
+    "counterexample_distribution/Figure_4c_classification_members.csv": "ab35df889884cc19e35d576320d920db63cbe1b4192ddd7f9ab80c13435a4a8d",
     "m2/certificate_measurement_all_witnesses.csv": "dbee42aacf2b4a87511164fcde944fc126de0ff377bf755db0f424734b89960a",
     "m2/certificate_measurement_by_class.csv": "9c7a1e437204a0110529db1b84e9690a34c41f7da5e925658090a16d0d975382",
     "m2/certificate_measurement_link.json": "8a6d2caa71b15b9cb5c0de1cfa012558e53f0770365479bd5d6929129001b961",
@@ -44,6 +46,11 @@
     "m2/rule_union_counts.json": "4ab576289eaff795d47a7537306f64ad9fd5735ee677511fe6f8e3956289ee13",
     "m2/rules_E1.csv": "10b1809a0af37ef17b14581bb3f577ad2ba5bf46544777f93a6fbd989d139dfb",
     "m2/rules_E1_targets.csv": "d9149ec9ef6aa09ec2f17a0c38c183a2d82db0b57440ae2901587dd9f49bd8df",
+    "noise_margin/replicate_condition_identities.csv": "3f85a996270c8db05e30db72c19b794667f994c69ab4df0daa3a216621f7f005",
+    "noise_margin/replicate_noise.csv": "ec6209a54a93d6d4aff2cb568f59b558cae54dea7866d5b42b5a4bfd62d3d39a",
+    "noise_margin/replicate_pairs.csv": "e409d70bdc1a844f464469bce7f2ad5f93345b124311f6919e1f54dde37925a2",
+    "noise_margin/target_strengths.csv": "e3d5f67c04c959051bcb0cf706769d18db0d2255d61885e56657b1e8a6960ef3",
+    "noise_margin/threshold_survival.csv": "e7c867e1ba433da99dfb2136385fff38dc1050192378a71cd06777940f12d333",
     "science_extensions/Figure_3a.csv": "3be49f80a4d5045c535b866006c61be62401ed70222c31c1d8524c168c6763fe",
     "science_extensions/Figure_4_draws.csv": "affefaa942bd16aa11358e7cdb9a4916d0cdf36d5f86e3e33358c862964882f2",
     "science_extensions/Figure_4_summary.csv": "58605f213e547ee6648a671de87b092c5d8b6f814689d56102c41e79f4c517de",

@@ -34,8 +34,9 @@ The output directory must be empty and outside this package. `--stage ingest`
 recomputes input classification, qualification, recipe comparisons and measurement
 loss without the primary random controls. `--stage primary` additionally computes
 the collective witnesses and complete-comparison-block budget schedules under
-`science_extensions/`, after completing the core scientific analysis. Verify the
-packaged files alone with:
+`science_extensions/`, the Table S2 results under `noise_margin/` and the Figure 4c
+counts under `counterexample_distribution/`, after the core scientific analysis.
+Verify the packaged files alone with:
 
 ```sh
 python code/scripts/run_release.py --out ../unused --verify-only
@@ -119,3 +120,32 @@ The deterministic reference files are `science_extensions/Figure_3a.csv`,
 `Figure_4_summary.csv` and `budget_curve_metadata.json`, all in that directory.
 They contain numerical results and scientific identities; catalogue operational
 note translations do not enter witness selection, scheduling or these outputs.
+
+## Table S2 and Figure 4c
+
+`noise_margin/threshold_survival.csv` recomputes Table S2(a): of the original 177
+counterexample comparisons, 177, 58, 17 and 9 retain a reversal cycle at inclusive
+5, 10, 15 and 20 percentage-point thresholds, respectively.
+`noise_margin/target_strengths.csv` gives every target's margin and survival flags.
+`noise_margin/replicate_noise.csv` recomputes Table S2(b), reporting duplicated
+Hiyama C43/C46 and Suzuki C74/C77 conditions separately. The Hiyama measured-pair
+count is 121; five pairs differ by at least 5 points and one by at least 10 points.
+`replicate_pairs.csv` and `replicate_condition_identities.csv` in the same directory
+give the underlying measured pairs and recipe identities. `noise_margin_summary.json`
+contains the same statistics, definitions and hashes of the inputs used in that run.
+The five scientific CSVs are reference-hash targets; source hashes in the summary
+reflect the input route, including cleaned-corpus ingestion provenance.
+
+`counterexample_distribution/Figure_4c_array_distribution.csv` recomputes the
+Figure 4c counts: 177 counterexamples across 11 arrays, with 111 requiring one
+discarded combination and 66 requiring several.
+`counterexample_distribution/Figure_4c_classification_members.csv` records the
+existing `new_contradiction` and `minimum_O` classifications for all 177 members.
+Both CSVs are reference-hash targets.
+
+After the primary analysis, either result set can be regenerated independently:
+
+```sh
+python code/scripts/build_noise_margin.py --out ../screen_selection_reproduced
+python code/scripts/build_counterexample_distribution.py --out ../screen_selection_reproduced
+```

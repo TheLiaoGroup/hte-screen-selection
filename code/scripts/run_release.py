@@ -85,6 +85,11 @@ def science_commands(root: Path, output: Path, stage: str) -> list[list[str]]:
             '--output-dir', str(output / 'science_extensions'),
             '--compound-catalogue', str(root / 'code/data/catalogues/0_Compound ID_260810.xlsx'),
             '--only', 'all'])
+        commands.extend([
+            [sys.executable, str(scripts / 'build_noise_margin.py'), '--out', str(output)],
+            [sys.executable, str(scripts / 'build_counterexample_distribution.py'),
+             '--out', str(output)],
+        ])
     return commands
 
 

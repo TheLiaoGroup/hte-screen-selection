@@ -26,6 +26,8 @@
     "code/data/catalogues/0_total condition_260810.xlsx": "d582c256330f3f48f063be704c5045071609fff566e642f35133044ccbcaf6e9",
     "code/data/metadata/EXCLUDE_wells.csv": "236b9ab8558e8f708e845912e4c95acb287c67b5ed6fab2f2ae315cc5088d5db",
     "code/requirements.txt": "469e573006efb5099bdff61653f5851b52efbd4d497474c3c4f3a61bbdd2e7d3",
+    "code/scripts/build_counterexample_distribution.py": "5a336b6ff715bdb84baa77ebc6b4b30d2281e855fc34683cb6211e9819f0f1ae",
+    "code/scripts/build_noise_margin.py": "a91c79fd466085eb9630a312763aa387b5b3e42c966a992f16bd3d25ce31745c",
     "code/scripts/build_science_extensions.py": "c26f4110308b6326586789a03e54a5cf796cfd56c1dc42702d5e27afc85c45d4",
     "code/scripts/cleanup.py": "8166e09b0772c709feea06a5590d3a57e5e4db62804b962621f5ba574b6a2503",
     "code/scripts/m2/01_build_observations.py": "829c4406e9c2c4b1f0af93335a3404edb788c813415ef10f756908ac61f62fa8",
@@ -66,9 +68,9 @@
     "code/scripts/m2/run_analysis.py": "182cd39583bc6a7672bac577ccb9cf8099a005e26d96177f0e8bdc64bf08d3f6",
     "code/scripts/m2/variant_support.py": "35f6cfeb0c0bd11aede4529374129cf27a00f5b797a37bc73e1ebcc22467fde1",
     "code/scripts/release_inputs.py": "f795cf0def0fc6247fd517dc9d79a03ae0d0e13a1a77c04633b375609fdf587a",
-    "code/scripts/run_release.py": "52560d25aac00bd178a751d3cfe5d7f4d7b12b68499f5f21aa24368c3e98477b",
+    "code/scripts/run_release.py": "ba6e3c77660f5d95a97432591bca5463e947559ec501d63c11d8943353fddd90",
     "code/scripts/triage/run_triage.py": "2c51c0b19de9d11237af1fd8b53c34934e80eff7f9a1c90eb2c13501bdcc818c",
-    "README.md": "74ddc8bbfd39a82236c14bb1ae628f846a212ea660731ab3ef1b8ee5c1fc5b79",
-    "reference_outputs.json": "188b89954ebf92c58194a56a0809b940f44201ea53295acaab0fba1ee406b957"
+    "README.md": "3c1dea99ce93b6bb3e8f52a5e6b1a8becd0cd937357b6ddb6fcdec3f5aad7d25",
+    "reference_outputs.json": "5715e3206037ba10fca26628e443a8e7e887971732bff695d8bbaf2bbdf78cb9"
   }
 }
